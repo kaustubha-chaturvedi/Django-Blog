@@ -11,3 +11,7 @@ A simple blog demo made on Django.
 - Dashboard to create, edit and delete posts.
 - Preconfigured Django Ckeditor to edit RichText.
 - Responsive Design with Bootstrap.
+
+## Admin Login Creds :
+- username : PyBlog
+- password : q
