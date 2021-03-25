@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'blog/css/bootstrap.min.css' %}">
+    <title>MyBlog</title>
+</head>
+<body class="bg-light">
+    <div class="bg-light">
+        {%include 'html/nav.html'%}
+    </div>
+    <div class="container">
+        <div class="row">
+            {% block content %}
+            {% block side %}
+            {% endblock side %}
+            {% endblock content %}
+        </div>
+    </div>
+
+    <script src="{% static 'blog/js/bootstrap.bundle.min.js' %}"></script>
+</body>
+</html>
