@@ -3,7 +3,7 @@
 {% block content %}
 <div class="col-sm-10">
     <h3 class="my-5">PyBlog</h3>
-    {% for post in posts %}
+    {% for post in posts %} <!-- looping through posts object whis was sent as dictioanry[key] by views.py home() function -->
     <div class="card mb-3 border-2 border-dark">
         <div class="card-body">
             <h4 class="card-title text-white">{{post.title|safe}}</h4>

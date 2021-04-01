@@ -3,6 +3,12 @@ from django.contrib.auth.forms import UserCreationForm,AuthenticationForm,Userna
 from django.contrib.auth.models import User
 from django.utils.translation import gettext,gettext_lazy as _
 from .models import Post,Comment
+
+'''
+This form.py file is not required and this methods could be made in views.py also but I made this file to
+keep code organized.
+'''
+
 class SignUp(UserCreationForm):
     password1 = forms.CharField(label="Password", widget=forms.PasswordInput(attrs={'class':'form-control'}))
     password2 = forms.CharField(label="Confirm Password", widget=forms.PasswordInput(attrs={'class':'form-control'}))
