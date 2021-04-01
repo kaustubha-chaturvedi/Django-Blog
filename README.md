@@ -7,6 +7,11 @@ A simple blog demo made on Django.
 
 - Create Post
 - Create Comment
-- Persistent Data Storage with sqlit3 models
+- Persistent Data Storage with sqlite3 models
 - Dashboard to create, edit and delete posts.
+- Preconfigured Django Ckeditor to edit RichText.
 - Responsive Design with Bootstrap.
+
+## Admin Login Creds :
+- username : PyBlog
+- password : q
